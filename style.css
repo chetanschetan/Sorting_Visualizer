@@ -1,0 +1,321 @@
+/* body {
+  background-color: #241e24;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0 20px 30px 0;
+  line-height: 1.4;
+  
+}
+
+html,body{
+  display:grid;
+  height:100%;
+  text-align:center;
+  place-items:center;
+  
+} 
+.range{
+  height:60px;
+  width:200px;
+  background: #fff;
+  border-radius: 10px;
+  padding:0 65px 0 45px;
+}
+
+.range .sliderValue{
+  position:relative;
+  width:100%;
+}
+
+.range .sliderValue span{
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: red; 
+  color:white;
+  font-weight:500;
+  top: -40px;
+  transform: translateX(-50%) scale(0);
+  transform-origin: bottom;
+  transition: transform 0.3s ease-in-out;
+  line-height: 55px;
+  z-index: 2;
+}
+
+.range .sliderValue span.show{
+  transform: translateX(-50%) scale(1);
+}
+
+.range .sliderValue span:after{
+  position: absolute;
+  content: "";
+  height: 45px;
+  width: 45px;
+  background: rgb(18, 46, 225);
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  border: 3px solid #fff;
+  z-index: -1;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.range .field{
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height:100%;
+}
+
+.range .field .value{
+  position:absolute;
+  font-size:18px;
+  font-weight:600;
+  color:#3d25c7
+}
+
+.range .field .value.left{
+  left: -22px;
+}
+
+.range .field .value.right{
+  right: -43px;
+}
+
+.range .field input{
+  -webkit-appearance: none;
+  height: 3px;
+  width: 100%;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.range .field input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height: 10px;
+  width: 15px;
+  background: #664AFF;
+  border-radius: 50%;
+  border: 1px solid #664AFF;
+  cursor: pointer;
+}
+
+.flex-container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  transition: 2s all ease;
+}
+
+.flex-item{
+  background: #938274;
+  border: 1pt solid black;
+  width: 10px;
+  transition: 0.1s all ease;
+  
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+  display: flex;
+  padding:0px 20px 0px 20px;
+  justify-content: space-around;
+} */
+
+
+  
+
+
+
+
+
+
+
+
+body {
+  background-color: #181818;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0 20px 30px 0;
+  line-height: 1.4;
+}
+.flex-container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  transition: 2s all ease;
+}
+
+.flex-item{
+  background: #938274;
+  border: 1pt solid black;
+  width: 10px;
+  transition: 0.1s all ease;
+  
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+/* #input{
+  display: flex;
+  padding: 10px;
+   justify-content: space-around; 
+} */
+
+
+.bubbleSort {
+  background-color: grey;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal; /* Initial font weight */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease, border-radius 0.3s ease, font-weight 0.3s ease;
+}
+.bubbleSort:hover {
+  background-color:yellowgreen;
+  transform: scale(1.1);
+  font-size: 15px;
+  font-weight: bold; /* Font weight on hover */
+  border-radius: 5px;
+}
+
+.selectionSort{
+  background-color: grey;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal; /* Initial font weight */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease, border-radius 0.3s ease, font-weight 0.3s ease;
+}
+
+.selectionSort:hover{
+  background-color:yellowgreen;
+  transform: scale(1.1);
+  font-size: 15px;
+  font-weight: bold; /* Font weight on hover */
+  border-radius: 5px;
+}
+
+.insertionSort{
+  background-color: grey;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal; /* Initial font weight */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease, border-radius 0.3s ease, font-weight 0.3s ease;
+}
+
+.insertionSort:hover{
+  background-color:yellowgreen;
+  transform: scale(1.1);
+  font-size: 15px;
+  font-weight: bold; /* Font weight on hover */
+  border-radius: 5px;
+}
+
+.quickSort{
+  background-color: grey;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal; /* Initial font weight */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease, border-radius 0.3s ease, font-weight 0.3s ease;
+}
+
+.quickSort:hover{
+  background-color:yellowgreen;
+  transform: scale(1.1);
+  font-size: 15px;
+  font-weight: bold; /* Font weight on hover */
+  border-radius: 5px;
+}
+
+.mergeSort{
+  background-color: grey;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal; /* Initial font weight */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease, border-radius 0.3s ease, font-weight 0.3s ease;
+}
+
+.mergeSort:hover{
+  background-color:yellowgreen;
+  transform: scale(1.1);
+  font-size: 15px;
+  font-weight: bold; /* Font weight on hover */
+  border-radius: 5px;
+}
+
+.newArray{
+  background-color: grey;
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal; /* Initial font weight */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease, border-radius 0.3s ease, font-weight 0.3s ease;
+}
+.newArray:hover{
+  background-color:yellowgreen;
+  transform: scale(1.1);
+  font-size: 15px;
+  font-weight: bold; /* Font weight on hover */
+  border-radius: 5px;
+}
+
+#size{
+  color:#fff;
+  font-weight:500;
+
+}
+
+ #size_arr{
+  color:#fff;
+  font-weight:500;
+  margin-right:60px;
+} 
+
+
+#speed{
+  color:#fff;
+  font-weight:500;
+  
+}
+
+#arr_speed{
+  color:#fff;
+  font-weight:500;
+
+}
+
+
+h1{
+  color:rgb(192, 202, 184);
+}
+h1:hover{
+  transform: scale(1.1);
+  transition:transform 0.5s ease;
+}
