@@ -5,6 +5,11 @@ Sorting is the process of arranging elements either in ascending order or descen
 
 
 # This is how our Sorting Visualizer looks like...
+
+
+![Screenshot 2024-06-22 083924](https://github.com/chetanschetan/Sorting_Visualizer/assets/161132484/739f62fa-3db0-44e1-bdc1-b12ee66f439f)
+
+
 All the buttons have hover effect. we can also detect the size and speed of the bars.
 
 
